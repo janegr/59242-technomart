@@ -8,46 +8,31 @@
 	<header class="main-header">
 		<div class="container">
 			<div class="heder-panel">
-				<div class="index-logo">
-					<a href="#" class="logo-link">
-						<h2 class="header-name">Техномарт</h2>
-					</a>
-				</div>
+				<a href="" class="logo">Техномарт</a>
 				<div class="wrap-search">
 					<form action="#" class="search-form">
 						<input type="search" class="search" placeholder="Поиск"></form>
+					<button type="submit" class="btn">Поиск:</button>
 				</div>
-				<div class="wrap-marker">
-					<a href="#" class="btn marker-link">
-						Закладки:
-						<span class="counter">0</span>
-					</a>
-				</div>
-				<div class="wrap-card">
-					<a href="#" class="btn card-link">
-						Корзина:
-						<span class="counter">0</span>
-					</a>
-				</div>
-				<div class="wrap-order">
-					<button type="submit" class="btn order">Оформить заказ</button>
-				</div>
+				<a href="#" class="btn marker-link">
+					Закладки:
+					<span class="counter" id="mark">0</span>
+				</a>
+				<a href="#" class="btn card-link">
+					Корзина:
+					<span class="counter" id="card">0</span>
+				</a>
+				<a href="" class="btn order">Оформить заказ</a>
 			</div>
 			<div class="header-info">
-				<div class="company-name">
-					<h4 class="header-name">
-						Интернет-магазин					 
+				<h4 class="header-name">
+					Интернет-магазин				 
 					строительных материалов
 					и инструментов для ремонта
-					</h4>
-				</div>
+				</h4>
 				<div class="header-contacts">
-					<div class="wrap-phone">
-						<span class="phone-number">+7(812) 555-05-55</span>
-					</div>
-					<div class="company-address">
-						<p class="page-text">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
-					</div>
+					<span class="phone-number">+7(812) 555-05-55</span>
+					<p class="header-text">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
 				</div>
 				<div class="user-block">
 					<div class="user-profile">
@@ -56,12 +41,8 @@
 							<!--exit-->
 						</a>
 					</div>
-					<div class="user-order">
-						<a href="#" class="order-link">Мои заказы</a>
-					</div>
-					<div class="personal account">
-						<a href="#" class="account-link">Личный кабинет</a>
-					</div>
+					<a href="#" class="order-link">Мои заказы</a>
+					<a href="#" class="account-link">Личный кабинет</a>
 				</div>
 			</div>
 			<nav class="main-menu">
@@ -102,8 +83,7 @@
 				<a href="#" class="breadcrumb-link">Каталог</a>
 			</li>
 			<li class="breadcrumb-item">
-				<a href="#" class="breadcrumb-link"></a>
-				Инструмент
+				<a href="#" class="breadcrumb-link">Инструмент</a>
 			</li>
 			<li class="breadcrumb-item">Перфораторы</li>
 		</ul>
@@ -174,9 +154,7 @@
 					<li class="sorting-item">
 						<span class="panel-name">Сортировка:</span>
 					</li>
-					<li class="sorting-item">
-						<span class="item-name">По цене</span>
-					</li>
+					<li class="sorting-item active">По цене</li>
 					<li class="sorting-item">
 						<a href="#" class="item-link" target="_blank">По типу</a>
 					</li>
@@ -194,128 +172,102 @@
 			<div class="goods-gallery">
 				<article class="goods-index">
 					<div class="goods-view">
-						<a href="#" class="goods-link" target="_blank">
-							<img src="http://placehold.it/60x80" alt=""></a>
-					</div>
-					<div class="goods-name">
-						<a href="#" class="brand-link">Перфоратор Bosch</a>
-						<a href="#" class="model-link">BFG 3000</a>
+						<img src="http://placehold.it/60x80" alt=""></div>
+					<div class="goods-model">
+						<h3 class="goods-name">Перфоратор Bosch</h3> <b href="#" class="model-name">BFG 3000</b>
 					</div>
 					<div class="goods-price">
-						<p class="price-old">22500 р.</p>
+						<span class="price-old">22500 р.</span>
 						<a href="#" class="btn price-link">15500р.</a>
 					</div>
 				</article>
 				<article class="goods-index">
 					<div class="goods-view">
-						<a href="#" class="goods-link" target="_blank">
-							<img src="http://placehold.it/60x80" alt=""></a>
-					</div>
-					<div class="goods-name">
-						<a href="#" class="brand-link">Перфоратор Bosch</a>
-						<a href="#" class="model-link">BFG 6000</a>
+						<img src="http://placehold.it/60x80" alt=""></div>
+					<div class="goods-model">
+						<h3 class="goods-name">Перфоратор Bosch</h3> <b class="model-name">BFG 6000</b>
 					</div>
 					<div class="goods-price">
-						<p class="price-old">30500 р.</p>
+						<span class="price-old">30500 р.</span>
 						<a href="#" class="btn price-link">22500 р.</a>
 					</div>
 				</article>
 				<article class="goods-index">
-					<div class="wrap-btn-buy">
+					<div class="buy-marker">
 						<a href="#" class="btn buy-link">Купить</a>
-					</div>
-					<div class="wrap-btn-marker">
 						<a href="#" class="btn marker-link">В закладки</a>
 					</div>
-					<div class="goods-name">
-						<a href="#" class="brand-link">Перфоратор Bosch</a>
-						<a href="#" class="model-link">BFG 2000</a>
+					<div class="goods-model">
+						<h3 class="goods-name">Перфоратор Bosch</h3>
+						<b class="model-name">BFG 2000</b>
 					</div>
-					<div class="goods-price">
-						<a href="#" class="btn price-link">12500 р.</a>
-					</div>
+					<a href="#" class="btn price-link">12500 р.</a>
 				</article>
 				<article class="goods-index">
 					<div class="goods-view">
-						<a href="#" class="goods-link" target="_blank">
-							<img src="http://placehold.it/60x80" alt=""></a>
-					</div>
-					<div class="goods-name">
-						<a href="#" class="brand-link">Перфоратор Bosch</a>
-						<a href="#" class="model-link">BFG 3000</a>
+						<img src="http://placehold.it/60x80" alt=""></div>
+					<div class="goods-model">
+						<h3 class="goods-name">Перфоратор Bosch</h3>
+						<b class="model-name">BFG 3000</b>
 					</div>
 					<div class="goods-price">
-						<p class="price-old">22500 р.</p>
+						<span class="price-old">22500 р.</span>
 						<a href="#" class="btn price-link">15500р.</a>
 					</div>
 				</article>
 				<article class="goods-index">
 					<div class="goods-view">
-						<a href="#" class="goods-link" target="_blank">
-							<img src="http://placehold.it/60x80" alt=""></a>
-					</div>
-					<div class="goods-name">
-						<a href="#" class="brand-link">Перфоратор Bosch</a>
-						<a href="#" class="model-link">BFG 6000</a>
+						<img src="http://placehold.it/60x80" alt=""></div>
+					<div class="goods-model">
+						<h3 class="goods-name">Перфоратор Bosch</h3>
+						<b class="model-name">BFG 6000</b>
 					</div>
 					<div class="goods-price">
-						<p class="price-old">30500 р.</p>
+						<span class="price-old">30500 р.</span>
 						<a href="#" class="btn price-link">22500 р.</a>
 					</div>
 				</article>
 				<article class="goods-index">
 					<div class="goods-view">
-						<a href="#" class="goods-link" target="_blank">
-							<img src="http://placehold.it/60x80" alt=""></a>
+						<img src="http://placehold.it/60x80" alt=""></div>
+					<div class="goods-model">
+						<h3 class="goods-name">Перфоратор Bosch</h3>
+						<b class="model-name">BFG 2000</b>
 					</div>
-					<div class="goods-name">
-						<a href="#" class="brand-link">Перфоратор Bosch</a>
-						<a href="#" class="model-link">BFG 2000</a>
-					</div>
-					<div class="goods-price">
-						<a href="#" class="btn price-link">12500 р.</a>
-					</div>
+					<a href="#" class="btn price-link">12500 р.</a>
 				</article>
 				<article class="goods-index">
 					<div class="goods-view">
-						<a href="#" class="goods-link" target="_blank">
-							<img src="http://placehold.it/60x80" alt=""></a>
-					</div>
-					<div class="goods-name">
-						<a href="#" class="brand-link">Перфоратор Bosch</a>
-						<a href="#" class="model-link">BFG 3000</a>
+						<img src="http://placehold.it/60x80" alt=""></div>
+					<div class="goods-model">
+						<h3 class="goods-name">Перфоратор Bosch</h3>
+						<b class="model-name">BFG 3000</b>
 					</div>
 					<div class="goods-price">
-						<p class="price-old">22500 р.</p>
+						<span class="price-old">22500 р.</span>
 						<a href="#" class="btn price-link">15500р.</a>
 					</div>
 				</article>
 				<article class="goods-index">
 					<div class="goods-view">
-						<a href="#" class="goods-link" target="_blank">
-							<img src="http://placehold.it/60x80" alt=""></a>
-					</div>
-					<div class="goods-name">
-						<a href="#" class="brand=link">Перфоратор Bosch</a>
-						<a href="#" class="model-link">BFG 6000</a>
+						<img src="http://placehold.it/60x80" alt=""></div>
+					<div class="goods-model">
+						<h3 class="goods=name">Перфоратор Bosch</h3>
+						<b class="model-name">BFG 6000</b>
 					</div>
 					<div class="goods-price">
-						<p class="price-old">30500 р.</p>
+						<span class="price-old">30500 р.</span>
 						<a href="#" class="btn price-link">22500 р.</a>
 					</div>
 				</article>
 				<article class="goods-index">
 					<div class="goods-view" >
-						<a href="#" class="goods-link" target="_blank">
-							<img src="http://placehold.it/60x80" alt=""></a>
+						<img src="http://placehold.it/60x80" alt=""></div>
+					<div class="goods-model">
+						<h3 class="goods-name">Перфоратор Bosch</h3>
+						<b class="model-name">BFG 2000</b>
 					</div>
-					<div class="goods-name">
-						<a href="#" class="brand-link">Перфоратор Bosch</a>
-						<a href="#" class="model-link">BFG 2000</a>
-					</div>
-					<div class="goods-price">
-						<a href="#" class="btn price-link">12500 р.</a>
-					</div>
+					<a href="#" class="btn price-link">12500 р.</a>
 				</article>
 			</div>
 		</div>
@@ -333,7 +285,7 @@
 		</ul>
 		<div class="shop-content">
 			<h2 class="header-name">Пара слов о перфораторах</h2>
-			<p class="page-text">
+			<p class="cite-text">
 				Перфоратор - универсальный строительный инструмент. Предназначен для
 			сверления и дробления отверстий в кирпиче, бетоне и камне. Существуют электромеханические и
 			пневматические перфораторы. Современные модели могут выполнять функции дрели, шуруповерта и отбойного молотка. В ассортиментном ряду есть выбор "трехрежимнников": в одном устройстве будут
@@ -345,56 +297,47 @@
 		<div class="container">
 			<div class="footer-top-panel">
 				<div class="footer-contacts">
-					<div class="index-logo">
-						<h2 class="header-name">Техномарт</h2>
-					</div>
-					<div class="company-address">
-						<p class="page-text">
-							г. Санкт-Петербург, ул. Б.Конюшенная, д. 19/8
-							+7(812)555-05-55
-						</p>
-					</div>
+					<a href="" class="logo">Техномарт</a>
+					<p class="footer-text">
+						г. Санкт-Петербург, ул. Б.Конюшенная, д. 19/8
+						<br>+7(812)555-05-55</p>
 				</div>
-				<nav class="footer-menu">
-					<ul class="nav-list">
-						<li class="nav-item">
-							<a href="" class="nav-link">Компания</a>
-						</li>
-						<li class="nav-item">
-							<a href="" class="nav-link">Новости</a>
-						</li>
-						<li class="nav-item">
-							<a href="" class="nav-link">Каталог</a>
-						</li>
-						<li class="nav-item">
-							<a href="" class="nav-link">Доставка</a>
-						</li>
-						<li class="nav-item">
-							<a href="" class="nav-link">Контакты</a>
-						</li>
-					</ul>
-				</nav>
-				<nav class="katalog-navigation">
-					<ul class="nav-list">
-						<li class="nav-item">
-							<a href="#" class="nav-link">Материалы</a>
-						</li>
-						<li class="nav-item">
-							<a href="#" class="nav-link">Техника</a>
-						</li>
-						<li class="nav-item">
-							<a href="#" class="nav-link">Инструмент</a>
-						</li>
-						<li class="nav-item">
-							<a href="#" class="nav-link">Спецпредложения</a>
-						</li>
-					</ul>
-				</nav>
 			</div>
-			<div class="footer-buttom-panel">
+			<ul class="footer-navigation main">
+				<li class="menu-item">
+					<a href="" class="menu-link">Компания</a>
+				</li>
+				<li class="menu-item">
+					<a href="" class="menu-link">Новости</a>
+				</li>
+				<li class="menu-item">
+					<a href="" class="menu-link">Каталог</a>
+				</li>
+				<li class="menu-item">
+					<a href="" class="menu-link">Доставка</a>
+				</li>
+				<li class="menu-item">
+					<a href="" class="menu-link">Контакты</a>
+				</li>
+			</ul>
+			<ul class="footer-navigation">
+				<li class="menu-item">
+					<a href="#" class="menu-link">Материалы</a>
+				</li>
+				<li class="menu-item">
+					<a href="#" class="menu-link">Техника</a>
+				</li>
+				<li class="menu-item">
+					<a href="#" class="menu-link">Инструмент</a>
+				</li>
+				<li class="menu-item">
+					<a href="#" class="menu-link">Спецпредложения</a>
+				</li>
+			</ul>
+			<div class="footer-bottom-panel">
 				<div class="company-copyright">
-					<p class="page-text">&#169;2010-2016 Компания "Техномарт"</p>
-					<p class="page-text">Все права защищены</p>
+					<span class="footer-info">&#169;2010-2016 Компания &#171;Техномарт&#187;</span>
+					<span class="footer-info">Все права защищены</span>
 				</div>
 				<div class="footer-social">
 					<a class="social-btn social-btn-vk" href="#">Вконтакте</a>
@@ -402,11 +345,11 @@
 					<a class="social-btn social-btn-inst" href="#">Инстаграм</a>
 				</div>
 				<div class="feedback">
-					<p class="page-text">Обратная связь</p>
-					<a href="#" class="btn">mail@htmlacademy.ru</a>
+					<span class="footer-info">Обратная связь</span>
+					<a href="mailto:mail@htmlacademy.ru" class="btn">mail@htmlacademy.ru</a>
 				</div>
 				<div class="developer-copyright">
-					<p class="page-text">Разработано -</p>
+					<span class="footer-info">Разработано -</span>
 					<a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
 				</div>
 			</div>
