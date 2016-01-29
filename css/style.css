@@ -1,0 +1,38 @@
+
+body {
+	font-size: 13px;
+	line-height: 24px;
+	color: #000000;
+	font-weight: normal;
+	font-family: PT Sans Regular;
+
+}
+h2 .slider-name {
+	font-size: 36px;
+	line-height: 30px;
+	color: #ffffff;
+	font-weight: bold;
+	font-family: Cuprum Bold;
+	
+}
+
+h2 .sector-name {
+	font-size: 30px;
+	line-height: 30px;
+	color: #ffffff;
+	font-weight: normal;
+	font-family: Cuprum Regular;
+}
+h2 .sector-name-color {
+	color: #32425c;
+}
+
+h3 .goods-name {
+	font-size: 18px;
+	line-height: 20px;
+	color: #000000;
+	font-weight: bold;
+	font-family: PT Sans Bold;
+}
+
+
