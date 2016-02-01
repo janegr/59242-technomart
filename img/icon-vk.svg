@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="20" height="12" viewBox="0 0 20 12">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        font-size: 27.2727px;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        font-family: "symbols-technomart";
+      }
+    </style>
+  </defs>
+  <text transform="translate(0 11) scale(0.66)" class="cls-1"><tspan class="cls-2">v</tspan></text>
+</svg>
