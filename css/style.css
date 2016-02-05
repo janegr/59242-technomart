@@ -16,9 +16,13 @@ html {
 }
 
 .main-header {
-	width: 100%;
 	margin-bottom: 60px;
 	outline: 2px solid blue;
+	background-color: #f2f6f8; 
+}
+
+.header-top-part{
+	background-color: #293449;
 }
 .container {
 	width: 960px;
@@ -26,6 +30,8 @@ html {
 	margin: 0 auto;
 	outline: 2px solid darkblue;
 }
+
+
 .row {
 	margin: 0 -10px;
 	outline: 2px solid red;
@@ -92,22 +98,8 @@ html {
   width: 100%;
 }
 
-.row-gallery {
-	margin: 0 -10px;
-	outline: 1px solid green;
-	
-}
-.row-gallery:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-.row-gallery .col {
-  float: left;
-}
-.row-gallery .col:nth-child(n){
-	width:33.33%;
-	outline: 1px dotted yellow;
+.float-right {
+	float: right;
 }
 
 .promo:last-child,
@@ -131,6 +123,7 @@ html {
 }
 .service {
 	margin-top: 85px;
+	background-color: #f2f6f8;
 }
 
 .breadcrumb-list {
@@ -146,14 +139,21 @@ html {
 	margin-bottom: 60px;
 }
 .index-content{
-	width: 100%
+	background-color: #f2f6f8;
 }
 .content-name {
 	margin: 0px;
 }
- p {
+.container > p {
  	margin-bottom: 0px;
  }
+
+.footer-top-part {
+	background-color: #32425c;
+}
+.footer-bottom-part {
+	background-color: #293449;
+}
 
 body {
 	font-size: 13px;
