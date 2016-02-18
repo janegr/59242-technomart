@@ -1756,7 +1756,7 @@ body {
 	padding: 0;
 }
 
-.filter-name {
+.filter-price .filter-name {
 	padding-top: 10px;
 	padding-bottom: 10px;
 	padding-left: 0;
@@ -1765,12 +1765,12 @@ body {
 	font-weight: 700;
 }
 
-.filter-block {
+.filter-price .filter-block {
 	width: 220px;
-	z-index: 5;
+	margin-bottom: 50px;
 }
 
-.range-controls {
+.filter-block .range-controls {
 	position: relative;
 	height: 80px;
 	margin-bottom: 10px;
@@ -1814,11 +1814,14 @@ body {
 .max-toggle {
 	left: 158px;
 }
-.price-controls {
+.filter-block .price-controls {
+	display: block;
+	width: 220px;
+
 	position: relative;
 	z-index: 5;
 }
-.price-controls input {
+.filter-block .price-controls input {
 	margin-top: 0px;
 	margin-left:0;
   width: 95px;
@@ -2201,7 +2204,7 @@ body {
 }
 
 .main-footer {
-	margin-top: 85px;
+	margin-top: 82px;
 }
 
 .footer-catalog {
@@ -2209,7 +2212,7 @@ body {
 }
 
 .footer-top-part {
-	padding-bottom:29px;
+	padding-bottom:30px;
 	font-size: 18px;
 	line-height: 24px;
 	font-weight: 400;
@@ -2238,7 +2241,7 @@ body {
 	display: inline-block;
 	margin: 0;
 	padding-top: 0px;
-	padding-right: 30px;
+	padding-right: 29px;
 	padding-bottom: 0;
 	padding-left: 30px;
 	vertical-align: top;
@@ -2298,7 +2301,7 @@ body {
 }
 
 .footer-bottom-part .company-copyright {
-	margin-top: 36px;
+	margin-top: 33px;
 	margin-right: 0;
 	margin-bottom: 38px;
 	font-size: 16px;
