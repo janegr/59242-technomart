@@ -1644,7 +1644,7 @@ body {
 	text-align: center;
 }
 
-.feedback-block {
+.pop-up-feedback {
 	position: relative;
 	display: block;
 	width: 620px;
@@ -1654,7 +1654,7 @@ body {
 	box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.75);
 }
 
-.feedback-block::after {
+.pop-up-feedback::after {
 	content: "";
 	position: absolute;
 	top: 17px;
