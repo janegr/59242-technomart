@@ -5,15 +5,15 @@
 	<title>Интернет магазин-Техномарт</title>
 	<link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Cuprum:400,700,400italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
-
+	<link rel="stylesheet" href="css/normalize.css">
 	<link href="css/style.css" type="text/css" rel="stylesheet"></head>
 <body>
 	<header class="main-header">
 		<div class="header-top-part">
 			<div class="container cf">
-				<a class="logo" href="#"  target="_blank">Техномарт</a>
+				<a class="logo" href="#" target="_blank">Техномарт</a>
 				<div class="wrap-search">
-					<form class="search-form" action="#" >
+					<form class="search-form" action="#" method="get">
 						<label class="search-icon">
 							<input class="input-search" type="search" placeholder="Поиск:"></label>
 					</form>
@@ -22,11 +22,11 @@
 					Закладки:
 					<span class="counter" id="register-bookmark">0</span>
 				</a>
-				<a href="#" class="key-basket" target="_blank">
+				<a class="key-basket" href="#" target="_blank">
 					Корзина:
 					<span class="counter" id="register-basket">0</span>
 				</a>
-				<a href="#" class="order" target="_blank">Оформить заказ</a>
+				<a class="order" href="#" target="_blank">Оформить заказ</a>
 			</div>
 		</div>
 		<div class="container">
@@ -47,8 +47,8 @@
 					</div>
 					<div class="col col-4">
 						<div class="user-block">
-							<a href="#" class="login-link" target="_blank">Войти</a>
-							<a href="#" class="registration-link" target="_blank">Регистрация</a>
+							<a class="login-link" href="#" target="_blank">Войти</a>
+							<a class="registration-link" href="#" target="_blank">Регистрация</a>
 						</div>
 					</div>
 				</div>
@@ -56,25 +56,25 @@
 			<nav class="main-menu">
 				<ul class="nav-list">
 					<li class="nav-item">
-						<a href="#" class="nav-link" target="_blank">Главная</a>
+						<a class="nav-link" href="#" target="_blank">Главная</a>
 					</li>
 					<li class="nav-item">
-						<a href="#" class="nav-link" target="_blank">Компания</a>
+						<a class="nav-link" href="#" target="_blank">Компания</a>
 					</li>
 					<li class="nav-item">
-						<a href="#" class="nav-link" target="_blank">Каталог</a>
+						<a class="nav-link" href="catalog.html" target="_blank">Каталог</a>
 					</li>
 					<li class="nav-item">
-						<a href="#" class="nav-link" target="_blank">Новости</a>
+						<a class="nav-link" href="#" target="_blank">Новости</a>
 					</li>
 					<li class="nav-item">
-						<a href="#" class="nav-link" target="_blank">Спецпредложения</a>
+						<a class="nav-link" href="#" target="_blank">Спецпредложения</a>
 					</li>
 					<li class="nav-item">
-						<a href="#" class="nav-link" target="_blank">Доставка</a>
+						<a class="nav-link" href="#" target="_blank">Доставка</a>
 					</li>
 					<li class="nav-item">
-						<a href="#" class="nav-link" target="_blank">Контакты</a>
+						<a class="nav-link" href="#" target="_blank">Контакты</a>
 					</li>
 				</ul>
 			</nav>
@@ -84,19 +84,19 @@
 		<div class="container">
 			<div class="row">
 				<div class="col col-4">
-					<div class="promo promo-new materials "> <b class="promo-title">Материалы</b>
-						<a href="#" class="promo-link">На любой вкус</a>
+					<div class="promo ribbon-new materials "> <b class="promo-title">Материалы</b>
+						<a class="promo-link" href="#" target="_blank">На любой вкус</a>
 					</div>
 				</div>
 				<div class="col col-4">
 					<div class="promo instruments"> <b class="promo-title">Инструменты</b>
-						<a href="#" class="promo-link">На все случаи</a>
+						<a class="promo-link" href="#" target="_blank">На все случаи</a>
 					</div>
 				</div>
 				<div class="col col-4">
 					<div class="promo equipment">
 						<b class="promo-title">Техника</b>
-						<a href="#" class="promo-link">Для стройки</a>
+						<a class="promo-link" href="#" target="_blank">Для стройки</a>
 					</div>
 				</div>
 			</div>
@@ -117,24 +117,20 @@
 						<div class="slider-inner">
 							<div class="slider-slides">
 								<div class="slide-index slide-1">
-									<!-- <div class="slide-1">
-									-->
 									<div class="slide-info">
 										<h2 class="slide-name">Перфораторы</h2>
 										<span class="slide-description">Настоящие мужские игрушки</span>
 									</div>
-									<a href="#" class="btn slide-btn" target="_blank">Открыть каталог</a>
+									<a class="btn slide-btn" href="#" target="_blank">Открыть каталог</a>
 									<span class="slide-prev"></span>
 									<span class="slide-next"></span>
 								</div>
 								<div class="slide-index slide-2">
-									<!--<div class="slide-2">
-									-->
 									<div class="slide-info">
 										<h2 class="slide-name">Дрели</h2>
 										<span class="slide-description">Соседям на радость</span>
 									</div>
-									<a href="#" class="btn slide-btn" target="_blank">Открыть каталог</a>
+									<a class="btn slide-btn" href="#" target="_blank">Открыть каталог</a>
 									<span class="btn slide-prev"></span>
 									<span class="btn slide-next"></span>
 								</div>
@@ -142,39 +138,39 @@
 						</div>
 					</div>
 				</div>
-				<!-- slider -->
 				<div class="col col-4">
 					<div class="promo discounts">
 						<b class="promo-title">Скидки 50%</b>
-						<a href="#" class="promo-link">На 350 товаров</a>
+						<a class="promo-link" href="#" target="_blank">На 350 товаров</a>
 					</div>
 					<div class="promo delivery">
 						<b class="promo-title">Доставка</b>
-						<a href="#" class="promo-link">Бесплатно</a>
+						<a class="promo-link" href="#" target="_blank">Бесплатно</a>
 					</div>
 				</div>
 			</div>
-			<!-- row -->
 			<section>
 				<div class="section-top-block clearfix">
 					<h2 class="section-header">Популярные товары:</h2>
-					<a href="#" class="btn section-btn" target="_blank">Все популярные товары</a>
+					<a class="btn section-btn" href="#" target="_blank">Все популярные товары</a>
 				</div>
 				<div class="section-body row">
 					<div class="col col-3">
 						<article class="goods">
 							<div class="active">
-								<a class="active-buy" href="#">Купить</a>
-								<a class="active-bookmark" href="#">В закладки</a>
+								<a class="active-buy" href="#" target="_blank">Купить</a>
+								<a class="active-bookmark" href="#" target="_blank">В закладки</a>
 							</div>
 							<div class="goods-view">
 								<img src="img/img-perforator-bfg-9000.jpg" width="218" height="159" alt="Перфоратор Bosch BFG-9000"></div>
 							<h3 class="goods-name">
 								Перфоратор
-								<span class="model-name">Bosch</span>
+								<span>Bosch</span>
 								<br>
-								<span class="model-name">bfg</span>
+								<span class="model-name">
+									bfg
 								9000
+								</span>
 							</h3>
 							<div class="goods-price">
 								<span class="price-old">32500 р.</span>
@@ -185,13 +181,14 @@
 					<div class="col col-3">
 						<article class="goods">
 							<div class="active">
-								<a class="active-buy" href="#">Купить</a>
-								<a class="active-bookmark" href="#">В закладки</a>
+								<a class="active-buy" href="#" target="_blank">Купить</a>
+								<a class="active-bookmark" href="#" target="_blank">В закладки</a>
 							</div>
 							<div class="goods-view">
 								<img src="img/img-perforator-bfg-3000.jpg" width="218" height="159" alt="Перфоратор Bosch BFG-3000"></div>
 							<h3 class="goods-name">
-								Перфоратор Bosch
+								Перфоратор
+								<span>Bosch</span>
 								<br>
 								<span class="model-name">BFG 3000</span>
 							</h3>
@@ -204,13 +201,14 @@
 					<div class="col col-3">
 						<article class="goods">
 							<div class="active">
-								<a class="active-buy" href="#">Купить</a>
-								<a class="active-bookmark" href="#">В закладки</a>
+								<a class="active-buy" href="#" target="_blank">Купить</a>
+								<a class="active-bookmark" href="#" target="_blank">В закладки</a>
 							</div>
 							<div class="goods-view">
 								<img src="img/img-perforator-bfg-6000.jpg" width="218" height="159" alt="Перфоратор Bosch BFG-6000"></div>
 							<h3 class="goods-name">
-								Перфоратор Bosch
+								Перфоратор
+								<span>Bosch</span>
 								<br>
 								<span class="model-name">BFG 6000</span>
 							</h3>
@@ -221,15 +219,16 @@
 						</article>
 					</div>
 					<div class="col col-3">
-						<article class="goods new">
+						<article class="goods ribbon-new">
 							<div class="active">
-								<a class="active-buy" href="#">Купить</a>
-								<a class="active-bookmark" href="#">В закладки</a>
+								<a class="active-buy" href="#" target="_blank">Купить</a>
+								<a class="active-bookmark" href="#" target="_blank">В закладки</a>
 							</div>
 							<div class="goods-view">
 								<img src="img/img-perforator-bfg-2000.jpg" width="218" height="159" alt="Перфоратор Bosch BFG-2000"></div>
 							<h3 class="goods-name">
-								Перфоратор Bosch
+								Перфоратор
+								<span>Bosch</span>
 								<br>
 								<span class="model-name">BFG 2000</span>
 							</h3>
@@ -244,36 +243,36 @@
 			<section>
 				<div class="section-top-block brand clearfix">
 					<h2 class="section-header">Популярные производители:</h2>
-					<a href="#" class="btn section-btn" target="_blank">Все производители</a>
+					<a class="btn section-btn" href="#" target="_blank">Все производители</a>
 				</div>
 				<div class="section-body row row--inline">
 					<div class="col col-3">
 						<div class="brand-name">
-							<a class="brand-name-link" href="#" >
+							<a class="brand-name-link" href="#" target="_blank">
 								<img src="img/img-bosch.jpg" width="220" height="145" alt="BOSCH"></a>
 						</div>
 					</div>
 					<div class="col col-3">
 						<div class="brand-name">
-							<a class="brand-name-link" href="#" >
+							<a class="brand-name-link" href="#" target="_blank">
 								<img src="img/img-makita.jpg" width="220" height="145" alt="Makita"></a>
 						</div>
 					</div>
 					<div class="col col-3">
 						<div class="brand-name">
-							<a class="brand-name-link" href="#" >
+							<a class="brand-name-link" href="#" target="_blank">
 								<img src="img/img-dewalt.jpg" alt="DeWALT"></a>
 						</div>
 					</div>
 					<div class="col col-3">
 						<div class="brand-name">
-							<a class="brand-name-link" href="#" >
+							<a class="brand-name-link" href="#" target="_blank">
 								<img src="img/img-interscol.jpg" width="220" height="145" alt="Интерскол"></a>
 						</div>
 					</div>
 					<div class="col col-3">
 						<div class="brand-name">
-							<a class="brand-name-link" href="#" >
+							<a class="brand-name-link" href="#" target="_blank">
 								<img src="img/img-hitachi.jpg" width="220" height="145" alt="HITACHI"></a>
 						</div>
 					</div>
@@ -285,13 +284,13 @@
 					</div>
 					<div class="col col-3">
 						<div class="brand-name">
-							<a class="brand-name-link" href="#" >
+							<a class="brand-name-link" href="#" target="_blank">
 								<img src="img/img-aeg.jpg" alt="AEG power solutions"></a>
 						</div>
 					</div>
 					<div class="col col-3">
 						<div class="brand-name">
-							<a class="brand-name-link" href="#" >
+							<a class="brand-name-link" href="#" target="_blank">
 								<img src="img/img-metabo.jpg" width="220" height="145" alt="metabo work. don't play."></a>
 						</div>
 					</div>
@@ -304,7 +303,8 @@
 					<h2 class="service-name">Сервисы</h2>
 					<p>
 						Хороший интернет-магазин отличается от плохого не только ценами
-						<br>
+					</p>
+					<p>
 						Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.
 					</p>
 				</div>
@@ -319,15 +319,14 @@
 										<b class="tab-content-name">Доставка</b>
 										<p>
 											Мы с удовольствием доставим ваш товар прямо
-											<br>
+										
 											к вашему подъезду совершенно бесплатно
-											<br>
 											Ведь мы неплохо заработаем,
 											<br>поднимая его на ваш этаж!</p>
 									</div>
 								</li>
 								<li class="menu-item">
-									<input type="radio" checked name="tabs" id="tab2">
+									<input type="radio" name="tabs" id="tab2">
 									<label for="tab2">Гарантия</label>
 									<div id="tab-body2" class="tab-content tab-garant">
 										<b class="tab-content-name">Гарантия</b>
@@ -335,23 +334,18 @@
 											Если купленный у нас товар поломается или заискрит,
 											<br>
 											а также в случае пожара, спровоцированного его возгоранием,
-											<br>
 											вы всегда можете быть уверены в нашей гарантии. Мы обменяем
-											<br>
 											сгоревший товар на новый.
-											<br>
-											Дом уж, восстановите как-нибудь сами.
-											<br></p>
+											<br>Дом уж, восстановите как-нибудь сами.</p>
 									</div>
 								</li>
 								<li class="menu-item">
-									<input type="radio" checked name="tabs" id="tab3">
+									<input type="radio" name="tabs" id="tab3">
 									<label for="tab3">Кредит</label>
 									<div id="tab-body3" class="tab-content tab-kredit">
 										<b class="tab-content-name">Кредит</b>
-										<p>
-											Залезть в долговую яму стало проще!
-											<br>Кредитные консультанты придут вам на помощь.</p>
+										<p>Залезть в долговую яму стало проще!</p>
+										<p>Кредитные консультанты придут вам на помощь.</p>
 										<a href="#" class="btn credit-btn" target="_blank">Отправить заявку</a>
 									</div>
 								</li>
@@ -386,10 +380,25 @@
 						<h2 class="content-title">Контакты</h2>
 						<p class="content-info">Вы можете забрать товар сами заехав в наш офис:</p>
 						<div class="map-info">
-							<a href="#" class="map-link" target="_blank">
+							<a href="https://yandex.ru/maps/-/CVHUvZ67" class="map-link" target="_blank">
 								<img src="img/img-map.jpg" width="300" height="158" alt="Карта"></a>
 						</div>
 						<a href="#" class="btn map-btn" target="_blank">Заблудились? Напишите нам!</a>
+					</div>
+				</div>
+				<div class="pop-up-feedback">
+					<form class="feedback-form" action="#" method="get">
+						<div class="user-data">
+							<label  for="name-user">Ваша имя</label>
+							<input type="text" name="data-name" id="name-user"  placeholder="Представтесь, пожалуйста"></div>
+						<div class="user-data">
+							<label for="e-mail" >Ваш e-mail</label>
+							<input type="text" name="data-e-mail" id="e-mail" placeholder="Для отправки ответа"></div>
+						<label for-"letter">Текст письма</label>
+						<textarea  rows="4" name="form-letter" id="letter" placeholder="В свободной форме"></textarea>
+					</form>
+					<div class="feedback-block-bottom">
+						<a  class="btn feedback-btn" href="#">Отправить</a>
 					</div>
 				</div>
 			</div>
@@ -400,24 +409,24 @@
 			<div class="container">
 				<div class="row">
 					<div class="col col-3">
-						<a href="#" class="logo footer-logo" target="_blank">Техномарт</a>
+						<a class="logo footer-logo" href="#" target="_blank">Техномарт</a>
 					</div>
 					<div class="col col-9">
 						<ul class="footer-navigation">
 							<li class="menu-item">
-								<a href="#" class="menu-link" target="_blank">Компания</a>
+								<a class="menu-link" href="#" target="_blank">Компания</a>
 							</li>
 							<li class="menu-item">
-								<a href="#" class="menu-link" target="_blank">Новости</a>
+								<a class="menu-link" href="#" target="_blank">Новости</a>
 							</li>
 							<li class="menu-item">
-								<a href="#" class="menu-link" target="_blank">Каталог</a>
+								<a class="menu-link" href="catalog.html" target="_blank">Каталог</a>
 							</li>
 							<li class="menu-item">
-								<a href="#" class="menu-link" target="_blank">Доставка</a>
+								<a class="menu-link" href="#" target="_blank">Доставка</a>
 							</li>
 							<li class="menu-item">
-								<a href="#" class="menu-link" target="_blank">Контакты</a>
+								<a class="menu-link" href="#" target="_blank">Контакты</a>
 							</li>
 						</ul>
 					</div>
@@ -433,16 +442,16 @@
 					<div class="col col-7">
 						<ul class="footer-navigation footer-navigation-color">
 							<li class="menu-item">
-								<a href="#" class="menu-link" target="_blank">Материалы</a>
+								<a class="menu-link" href="#" target="_blank">Материалы</a>
 							</li>
 							<li class="menu-item">
-								<a href="#" class="menu-link" target="_blank">Техника</a>
+								<a class="menu-link" href="#" target="_blank">Техника</a>
 							</li>
 							<li class="menu-item">
-								<a href="#" class="menu-link" target="_blank">Инструмент</a>
+								<a href="#" class="menu-link" href="#" target="_blank">Инструмент</a>
 							</li>
 							<li class="menu-item">
-								<a href="#" class="menu-link" target="_blank">Спецпредложения</a>
+								<a class="menu-link" href="#" target="_blank">Спецпредложения</a>
 							</li>
 						</ul>
 					</div>
@@ -460,21 +469,21 @@
 					</div>
 					<div class="col col-4">
 						<div class="footer-social">
-							<a href="#" class="social-btn social-btn-vk" >Вконтакте</a>
-							<a href="#" class="social-btn social-btn-fb" >Фейсбук</a>
-							<a href="#" class="social-btn social-btn-inst" >Инстаграм</a>
+							<a class="social-btn social-btn-vk" href="#" target="_blank">Вконтакте</a>
+							<a class="social-btn social-btn-fb" href="#" target="_blank">Фейсбук</a>
+							<a class="social-btn social-btn-inst" href="#" target="_blank">Инстаграм</a>
 						</div>
 					</div>
 					<div class="col col-4">
 						<div class="footer-info">
 							<span class="info-name">Обратная связь:</span>
 							<br>
-							<a class="info-link" href="mailto:mail@htmlacademy.ru"  target="_blank">mail@htmlacademy.ru</a>
+							<a class="info-link" href="mailto:mail@htmlacademy.ru" target="_blank">mail@htmlacademy.ru</a>
 						</div>
 						<div class="footer-info">
 							<span class="info-name">Разработано &#8212;</span>
 							<br>
-							<a class="info-link" href="https://htmlacademy.ru"  target="_blank">HTML Academy</a>
+							<a class="info-link" href="https://htmlacademy.ru" target="_blank">HTML Academy</a>
 						</div>
 					</div>
 				</div>
