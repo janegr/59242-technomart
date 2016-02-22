@@ -14,15 +14,15 @@
 				<a class="logo" href="index.html" target="_blank">Техномарт</a>
 				<div class="wrap-search">
 					<form class="search-form" action="#" method="get">
-						<label class="search-icon">
-							<input class="input-search" type="search" placeholder="Поиск:"></label>
+						<input class="input-search" type="search" id="search-operation" placeholder="Поиск:">
+						<label class="search-icon" for="search-operation"></label>
 					</form>
 				</div>
 				<a class="key-bookmark" href="#" target="_blank">
 					Закладки:
 					<span class="counter" id="register-bookmark">0</span>
 				</a>
-				<a class="key-basket key-basket-catalog" href="#" target="_blank">
+				<a class="key-basket key-basket-active" href="#" target="_blank">
 					Корзина:
 					<span class="counter" id="register-basket">10</span>
 				</a>
@@ -35,7 +35,7 @@
 					<div class="col col-4">
 						<h4 class="header-title">
 							Интернет-магазин				 
-					строительных материалов
+					строительных материалов<br>
 					и инструментов для ремонта
 						</h4>
 					</div>
@@ -53,10 +53,10 @@
 							</div>
 							<ul class="profile-list">
 								<li class="profile-item">
-									<a class="item-link" href="#" target="_blank">Мои заказы</a>
+									<a class="profile-link" href="#" target="_blank">Мои заказы</a>
 								</li>
 								<li class="profile-item">
-									<a class="item-link" href="#" target="_blank">Личный кабинет</a>
+									<a class="profile-link" href="#" target="_blank">Личный кабинет</a>
 								</li>
 							</ul>
 						</div>
@@ -66,7 +66,7 @@
 			<nav class="main-menu">
 				<ul class="nav-list">
 					<li class="nav-item">
-						<a class="nav-link" href="#" target="_blank">Главная</a>
+						<a class="nav-link" href="index.html" target="_blank">Главная</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#" target="_blank">Компания</a>
@@ -94,7 +94,7 @@
 		<div class="container">
 			<ul class="breadcrumb-list">
 				<li class="breadcrumb-item">
-					<a class="breadcrumb-link link-home" href="#" target="_blank"></a>
+					<a class="breadcrumb-link link-home" href="index.html" target="_blank"></a>
 				</li>
 				<li class="breadcrumb-item">
 					<a class="breadcrumb-link" href="#" target="_blank">Каталог</a>
@@ -106,7 +106,7 @@
 			</ul>
 			<section>
 				<div class="section-top-block clearfix">
-					<h2 class="section-header">Перфораторы</h2>
+					<h2 class="section-header section-header-catalog-page">Перфораторы</h2>
 				</div>
 				<div class="section-body row ">
 					<div class="col col-3">
@@ -174,26 +174,34 @@
 						</div>
 					</div>
 					<div class="col col-9">
-						<div class="catalog-goods">
+						<div class="catalog-goods ">
 							<div class="goods-sorting clearfix">
 								<span class="goods-sorting-name">Сортировка:</span>
 								<ul class="goods-sorting-list ">
 									<li class="sorting-item sorting-active">По цене</li>
 									<li class="sorting-item">
-										<a class="item-link" href="#" target="_blank">По типу</a>
+										<a class="sorting-link" href="#" target="_blank">По типу</a>
 									</li>
 									<li class="sorting-item">
-										<a class="item-link" href="#" target="_blank">По функционалу</a>
-									</li>
-									<li class="sorting-item sorting-item-active">
-										<a class="arrow-up" href="#" target="_blank"></a>
+										<a class="sorting-link" href="#" target="_blank">По функционалу</a>
 									</li>
 									<li class="sorting-item">
-										<a class="arrow-down" href="#" target="_blank"></a>
+										<a class="arrow arrow-up-active" href="#" target="_blank"></a>
+									</li>
+									<li class="sorting-item">
+										<a class="arrow arrow-down" href="#" target="_blank"></a>
 									</li>
 								</ul>
 							</div>
-							<div class="goods-gallery">
+							<div class="goods-gallery goods-gallery-basket">
+								<div class="pop-up-basket">
+									<div class="basket-container"> <b class="basket-name">Товар добавлен в корзину</b>
+									</div>
+									<div class="basket-bottom">
+										<a class="btn basket-btn" href="#">Оформить заказ</a>
+										<a class="btn basket-btn-continue" href="#">Продолжить покупки</a>
+									</div>
+								</div>
 								<div class="row row--inline">
 									<div class="col col-4">
 										<article class="goods">
@@ -374,14 +382,6 @@
 												<a class="btn price-btn" href="#" target="_blank">12500 р.</a>
 											</div>
 										</article>
-										<div class="pop-up-basket">
-											<div class="basket-container"> <b class="basket-name">Товар добавлен в корзину</b>
-											</div>
-											<div class="basket-bottom">
-												<a class="btn basket-btn" href="#">Оформить заказ</a>
-												<a class="btn basket-btn-continue" href="#">Продолжить покупки</a>
-											</div>
-										</div>
 									</div>
 								</div>
 							</div>

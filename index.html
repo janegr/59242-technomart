@@ -14,8 +14,8 @@
 				<a class="logo" href="#" target="_blank">Техномарт</a>
 				<div class="wrap-search">
 					<form class="search-form" action="#" method="get">
-						<label class="search-icon">
-							<input class="input-search" type="search" placeholder="Поиск:"></label>
+							<input class="input-search" type="search" id="search-operation" placeholder="Поиск:">
+							<label class="search-icon" for="search-operation"></label>
 					</form>
 				</div>
 				<a class="key-bookmark" href="#" target="_blank">
@@ -35,7 +35,7 @@
 					<div class="col col-4">
 						<h4 class="header-title">
 							Интернет-магазин				 
-					строительных материалов
+					строительных материалов<br>
 					и инструментов для ремонта
 						</h4>
 					</div>
@@ -312,41 +312,46 @@
 					<div class="row">
 						<div class="col col-12">
 							<ul class="tab-menu tab-shadow">
-								<li class="menu-item">
+								<li class="tab-item">
 									<input type="radio" checked name="tabs" id="tab1">
 									<label for="tab1">Доставка</label>
 									<div id="tab-body1" class="tab-content tab-delivery">
+										<div class="tab-info">
 										<b class="tab-content-name">Доставка</b>
 										<p>
-											Мы с удовольствием доставим ваш товар прямо
-										
-											к вашему подъезду совершенно бесплатно
-											Ведь мы неплохо заработаем,
-											<br>поднимая его на ваш этаж!</p>
+											Мы с удовольствием доставим ваш товар прямо<br>
+											к вашему подъезду совершенно бесплатно!</p>
+										<p>	Ведь мы неплохо заработаем,<br>
+											поднимая его на ваш этаж!</p>
+										</div>	
 									</div>
 								</li>
-								<li class="menu-item">
+								<li class="tab-item">
 									<input type="radio" name="tabs" id="tab2">
 									<label for="tab2">Гарантия</label>
 									<div id="tab-body2" class="tab-content tab-garant">
+										<div class="tab-info">
 										<b class="tab-content-name">Гарантия</b>
 										<p>
-											Если купленный у нас товар поломается или заискрит,
-											<br>
+											Если купленный у нас товар поломается или заискрит,<br>
 											а также в случае пожара, спровоцированного его возгоранием,
-											вы всегда можете быть уверены в нашей гарантии. Мы обменяем
-											сгоревший товар на новый.
-											<br>Дом уж, восстановите как-нибудь сами.</p>
+											вы всегда можете быть уверены в нашей гарантии.</p>
+											<p>	 Мы обменяем
+											сгоревший товар на новый.</p>
+											<p>	Дом уж, восстановите как-нибудь сами.</p>
+										</div>	
 									</div>
 								</li>
-								<li class="menu-item">
+								<li class="tab-item">
 									<input type="radio" name="tabs" id="tab3">
 									<label for="tab3">Кредит</label>
 									<div id="tab-body3" class="tab-content tab-kredit">
+										<div class="tab-info">
 										<b class="tab-content-name">Кредит</b>
-										<p>Залезть в долговую яму стало проще!</p>
-										<p>Кредитные консультанты придут вам на помощь.</p>
+										<p>Залезть в долговую яму стало проще!<br>
+										Кредитные консультанты придут вам на помощь.</p>
 										<a href="#" class="btn credit-btn" target="_blank">Отправить заявку</a>
+										</div>
 									</div>
 								</li>
 							</ul>
@@ -356,7 +361,7 @@
 			</div>
 		</div>
 		<div class="container">
-			<div class="company-content">
+			<div class="company-content company-content-feedback">
 				<div class="row">
 					<div class="col col-7">
 						<h2 class="content-title">Компания &#171;Техномарт&#187;</h2>
